@@ -22,6 +22,7 @@ fixture("DIXONS Automation Test - Buying a product").beforeEach(async t => {
 test("should add random product from Computing->ipad, tablets & ereaders subcategory", async t => {
   await t
 
+    .maximizeWindow()
     .hover(mainCategories.computing)
     .expect(computingSubcategories.laptops.exists)
     .ok()

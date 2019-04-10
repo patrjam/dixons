@@ -1,0 +1,14 @@
+{
+    "name": "dixons-tests",
+    "author": "Patrícia Jamrišková",
+    "version": "1.0.0",
+    "license": "MIT",
+    "dependencies": {
+      "testcafe": "^1.1.2"
+    },
+    "scripts": {
+      "buying-a-product": "testcafe chrome buying-a-product/tests/buying-a-product.test.ts --skip-js-errors",
+      "wikipedia": "testcafe chrome wikipedia/tests/wikipedia.test.ts --skip-js-errors"
+    }
+  }
+  
